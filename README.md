@@ -12,4 +12,4 @@
 - [Aarushi Shrestha](https://github.com/Aarushi21)
 
 
-## Tracks Chosen - OPEN INNOVATION
+## Track Chosen - OPEN INNOVATION
