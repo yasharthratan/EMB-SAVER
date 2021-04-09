@@ -21,8 +21,8 @@ let general_messages = document.getElementById('general_messages');
 
 
 // Get and set current version
-let version = chrome.runtime.getManifest().version;
-document.getElementById('version').innerText = version;
+//let version = chrome.runtime.getManifest().version;
+//document.getElementById('version').innerText = version;
 
 // Add or remove stylesheets
 function refreshScript(url, file){
@@ -94,7 +94,7 @@ chrome.storage.sync.get(buttonNames, function(data) {
       slack_workspace.checked = data.slack_workspace;
       slack_userProfile.checked = data.slack_userProfile;*/
 
-      general_messages.checked=data.general_messages;
+      //general_messages.checked=data.general_messages;
     });
 });
 
