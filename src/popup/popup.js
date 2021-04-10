@@ -11,18 +11,10 @@ let zoom_participants = document.getElementById('zoom_participants');
 let zoom_video = document.getElementById('zoom_video');
 let zoom_entry = document.getElementById('zoom_entry');
 
-/*let slack_messages = document.getElementById('slack_messages');
-let slack_sidebar = document.getElementById('slack_sidebar');
-let slack_members = document.getElementById('slack_members');
-let slack_workspace = document.getElementById('slack_workspace');
-let slack_userProfile = document.getElementById('slack_userProfile');*/
-
 let general_messages = document.getElementById('general_messages');
 
 
-// Get and set current version
-//let version = chrome.runtime.getManifest().version;
-//document.getElementById('version').innerText = version;
+
 
 // Add or remove stylesheets
 function refreshScript(url, file){
@@ -45,11 +37,7 @@ const buttonNames = [
   'zoom_video',
   // 'zoom_entry',
   'general_messages',
-  /*'slack_messages',
-  'slack_sidebar',
-  'slack_members',
-  'slack_workspace',
-  'slack_userProfile'*/
+  
 ];
 const gmeet_url = "https://meet.google.com/*";
 const loadMeet_url = "/loadMeet.js";
@@ -57,8 +45,6 @@ const loadMeet_url = "/loadMeet.js";
 const zoom_url = "https://*.zoom.us/*";
 const loadZoom_url = "/loadZoom.js";
 
-/*const slack_url = "https://app.slack.com/*";
-const loadSlack_url = "/loadSlack.js";*/
 
 const refreshMeet = () => {
   refreshScript(gmeet_url, loadMeet_url);
@@ -68,9 +54,7 @@ const refreshZoom = () => {
   refreshScript(zoom_url, loadZoom_url);
 }
 
-/*const refreshSlack = () => {
-  refreshScript(slack_url, loadSlack_url);
-}*/
+
 
 // Set current state in popup
 chrome.storage.sync.get(buttonNames, function(data) {
@@ -88,13 +72,6 @@ chrome.storage.sync.get(buttonNames, function(data) {
       zoom_video.checked=data.zoom_video;
       // zoom_entry.checked=data.zoom_entry;
       
-      /*slack_messages.checked = data.slack_messages;
-      slack_members.checked = data.slack_members;
-      slack_sidebar.checked = data.slack_sidebar;
-      slack_workspace.checked = data.slack_workspace;
-      slack_userProfile.checked = data.slack_userProfile;*/
-
-      //general_messages.checked=data.general_messages;
     });
 });
 
@@ -143,26 +120,6 @@ zoom_video.addEventListener('change', function() {
 //   refreshZoom();
 // });
 
-/*slack_messages.addEventListener('change', function(){
-  chrome.storage.sync.set({slack_messages: this.checked});
-  refreshSlack();
-});
-slack_members.addEventListener('change', function(){
-  chrome.storage.sync.set({slack_members: this.checked});
-  refreshSlack();
-});
-slack_sidebar.addEventListener('change', function(){
-  chrome.storage.sync.set({slack_sidebar: this.checked});
-  refreshSlack();
-});
-slack_workspace.addEventListener('change', function(){
-  chrome.storage.sync.set({slack_workspace: this.checked});
-  refreshSlack();
-});
-slack_userProfile.addEventListener('change', function(){
-  chrome.storage.sync.set({slack_userProfile: this.checked});
-  refreshSlack();
-});*/
 
 // Later
 // general_messages.addEventListener('change', function() {
