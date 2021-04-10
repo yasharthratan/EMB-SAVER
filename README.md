@@ -16,10 +16,18 @@ An efficient anti-peeping, pro privacy, browser extension to prevent people from
 ## Track Chosen - OPEN INNOVATION
 
 
-## Instructions to run 
+## Instructions to run :-
 1. Download the source code and go to your browser's extension tools.
 2. Turn on Developer mode.
 3. Click on Load Unpacked.
 4. Select `src/` and let it load.
 5. Turn on the main toggle manually by clicking (The toggle next to "Turn me on") or Hit "Alt + X" to turn on the extension!
 6. Focus on meeting without any worries. ✌️
+
+## Tools Used :-
+- HTML
+- CSS
+- Javascript
+- Chrome Extension
+
+### Screenshots
