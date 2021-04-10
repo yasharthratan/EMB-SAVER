@@ -30,4 +30,34 @@ An efficient anti-peeping, pro privacy, browser extension to prevent people from
 - Javascript
 - Chrome Extension
 
-### Screenshots
+### Screenshots :-
+  
+  ###POPUP
+
+![](https://github.com/yasharthratan/HACKULUS_BAAZIGAR/blob/main/screenshots/togle.png)
+ 
+ ###SNAPSHOTS FOR GOOGLE-MEET
+![](https://github.com/yasharthratan/HACKULUS_BAAZIGAR/blob/main/screenshots/Gmeet.png)
+
+![](https://github.com/yasharthratan/HACKULUS_BAAZIGAR/blob/main/screenshots/Gmeet-videoblur.png)
+
+![](https://github.com/yasharthratan/HACKULUS_BAAZIGAR/blob/main/screenshots/chatblur-gmeet.png)
+
+![](https://github.com/yasharthratan/HACKULUS_BAAZIGAR/blob/main/screenshots/participants-gmeet.png)
+
+![](https://github.com/yasharthratan/HACKULUS_BAAZIGAR/blob/main/screenshots/userbadge-gmeet.png)
+
+###SNAPSHOTS FOR ZOOM
+
+![](https://github.com/yasharthratan/HACKULUS_BAAZIGAR/blob/main/screenshots/Normal_zoom.png)
+
+![](https://github.com/yasharthratan/HACKULUS_BAAZIGAR/blob/main/screenshots/Videoblur_zoom.png)
+
+![](https://github.com/yasharthratan/HACKULUS_BAAZIGAR/blob/main/screenshots/Blur_zoom.png)
+
+
+
+
+
+
+
