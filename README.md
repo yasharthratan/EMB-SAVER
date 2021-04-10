@@ -32,27 +32,35 @@ An efficient anti-peeping, pro privacy, browser extension to prevent people from
 
 ### Screenshots :-
   
-  ###POPUP
+  ### POPUP
 
 ![](https://github.com/yasharthratan/HACKULUS_BAAZIGAR/blob/main/screenshots/togle.png)
  
- ###SNAPSHOTS FOR GOOGLE-MEET
+ ### SNAPSHOTS FOR GOOGLE-MEET
+ The image just before turning on the extension.
 ![](https://github.com/yasharthratan/HACKULUS_BAAZIGAR/blob/main/screenshots/Gmeet.png)
 
+The image after bluring video. 
 ![](https://github.com/yasharthratan/HACKULUS_BAAZIGAR/blob/main/screenshots/Gmeet-videoblur.png)
 
+The image after bluring chat.
 ![](https://github.com/yasharthratan/HACKULUS_BAAZIGAR/blob/main/screenshots/chatblur-gmeet.png)
 
+The image after bluring participants list.
 ![](https://github.com/yasharthratan/HACKULUS_BAAZIGAR/blob/main/screenshots/participants-gmeet.png)
 
+The image after bluring user badge.
 ![](https://github.com/yasharthratan/HACKULUS_BAAZIGAR/blob/main/screenshots/userbadge-gmeet.png)
 
-###SNAPSHOTS FOR ZOOM
+### SNAPSHOTS FOR ZOOM
 
+Image just before turning on the extension
 ![](https://github.com/yasharthratan/HACKULUS_BAAZIGAR/blob/main/screenshots/Normal_zoom.png)
 
+Image after bluring video
 ![](https://github.com/yasharthratan/HACKULUS_BAAZIGAR/blob/main/screenshots/Videoblur_zoom.png)
 
+Image after bluring everything( video, chats and participants list).
 ![](https://github.com/yasharthratan/HACKULUS_BAAZIGAR/blob/main/screenshots/Blur_zoom.png)
 
 
